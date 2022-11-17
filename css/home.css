@@ -1,0 +1,28 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../images/home__image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px -40px 40px #000;
+}
+
+.home__text{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.home__title{
+    font-size: 4.5rem;
+}
+
+.personalized__button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}

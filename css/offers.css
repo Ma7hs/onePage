@@ -1,0 +1,38 @@
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.offers__company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image__company{
+    height: 513px;
+    width: 565px;
+}
+
+.offers__interactions{
+    padding-left: 53px;
+}
+
+.offers__title{
+    font-size: 48px;
+}
+
+.offers__text{
+    font-size: 24px;
+}
+
+.personalized__button__learn{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 32px;
+}

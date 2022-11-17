@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display:grid ;
+    grid-template-areas: "content";
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+    height: 80px;
+    grid-area: content;
+    background-color: #2F93D0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    place-self: start center;   
+
+}
+
+main{
+    background-color: chartreuse;
+}
+
+section{
+    height: 100vh;
+}
