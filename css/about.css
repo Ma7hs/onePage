@@ -32,6 +32,10 @@
     width: 500px;
 }
 
+.financial__services{
+    padding-top: 65px;
+}
+
 .about__us__icons i{
     font-size:3rem;
     color: #2F93D0;
