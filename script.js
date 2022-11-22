@@ -19,7 +19,7 @@ controls.forEach((control) => {
 
     if (currentItem < 0) {
       currentItem = maxItems - 1;
-    }
+    } 
 
     items.forEach((item) => item.classList.remove("current-item"));
 
