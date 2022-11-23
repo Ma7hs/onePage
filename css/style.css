@@ -21,11 +21,14 @@ header{
 }
 
 main{
+    background-color:#F8F8FF;
     align-content: center;
     flex-direction: column;
 }
 
 section{
-    align-content: center;
+    background-color: #DCDCDC;
     height: 100vh;
+    align-content: center;
+   
 }

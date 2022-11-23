@@ -11,13 +11,14 @@
 .contact__container{
  margin-top: 64px;
  display: flex;
- justify-content: space-evenly;   
+ justify-content: space-around;   
  align-items: center;
  align-content: center; 
 }
 
 .company__social{
-    width: 500px;
+    /* margin-left: -12%; */
+    width: 450px;
     display: flex;
     align-self: flex-start;
     flex-direction: column;
@@ -46,12 +47,13 @@
 
 .feature{
     display: flex;
-    padding-right: 300px;
+    text-align: center;
+    align-items: baseline;
     color: white;
     font-size: 1.5rem;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
+    width: 150px;
     gap: 16px;
 }
 
@@ -67,6 +69,10 @@
     justify-content: center;
     flex-direction: column;
     gap: 32px;
+}
+
+.faq{
+    width: 410px;
 }
 
 .faq li{
