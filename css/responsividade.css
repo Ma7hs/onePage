@@ -1,0 +1,115 @@
+@media screen and (max-width: 640px){
+    header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 120vh;
+    }
+
+    .featured__products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+    }
+
+    .offers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60vh;
+    }
+
+    .list__home_products_contact{
+        display: none;
+    }
+    .client{
+        visibility: hidden;
+    }
+    .bars__icon{
+        visibility: visible;
+        font-size: 2rem;
+    }
+    .logo{
+        font-size: 4rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        visibility: visible;
+        padding-left: 490px;
+        background-image: linear-gradient(to bottom, #2F93D0, #003580);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: black;
+    }
+    .home__text{
+        width: 250px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .home__title{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 7rem;
+    }
+
+    .home__description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 800px;
+        font-size: 3rem;
+    }
+
+    .personalized__button .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 5vh;
+        width: 500px;
+        font-size: 3rem;
+    }
+
+    .image__company{
+        display: none;
+    }
+
+    .offers__interactions{
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+    }
+
+    .offers__title{
+        font-size: 5rem;
+    }
+
+    .image-offers-mobile{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        width: 500px;
+        height: 500px;
+    }
+
+    }

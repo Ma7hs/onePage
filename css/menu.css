@@ -54,11 +54,13 @@
 }
 
 .icons__client{
+    align-items: center;
     display: flex;
     gap: 45px;
 }
 
 .client{
+    align-items: center;
     display: flex;
     gap: 48px;
 }
