@@ -71,7 +71,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 80vh;
+        height: 60vh;
     }
 
     .image__company{
@@ -123,6 +123,8 @@
     }
 
     .about__us{
+        display: grid;
+        justify-content: center;
         width: 100vw;
         height: 100vh;
         align-items: center;
@@ -143,6 +145,5 @@
         margin: 0 80px;
         font-size: 16px;
     }
-
 }
 
