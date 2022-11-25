@@ -71,7 +71,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
     }
 
     .image__company{
@@ -120,6 +120,28 @@
         display: flex;
         justify-content: center;
         margin: 10px 50px;
+    }
+
+    .about__us{
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .about__us__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .about__us__icons span{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 80px;
+        font-size: 16px;
     }
 
 }
