@@ -1,3 +1,9 @@
+@media (max-width: 375px) {
+    .logo{
+        margin-left: 25px;
+    }
+}
+
 @media (max-width: 450px){
    
     body{
@@ -150,7 +156,9 @@
         font-size: 16px;
     }
 
-
+    .uptade{
+        width: 10vw;
+    }
     
 }
 
