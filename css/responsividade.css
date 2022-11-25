@@ -76,7 +76,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 60vh;
+        height: 90vh;
     }
 
     .image__company{
@@ -131,7 +131,7 @@
         display: grid;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
+        height: 120vh;
         align-items: center;
     }
 
