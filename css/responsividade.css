@@ -128,6 +128,7 @@
     }
 
     .about__us{
+        margin-top: 200px;
         display: grid;
         justify-content: center;
         width: 100vw;
