@@ -1,15 +1,27 @@
 @media (max-width: 375px) {
-        .logo{
+    body{
+        width: 100vw;
+    }
+
+    .logo{
         margin-left: 30px;
+    }
+
+    .update{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .update__text span{
+        font-size: 32px;
+        display: flex;
+        text-align: center;
     }
 }
 
 @media (max-width: 450px){
-   
-    body{
-        width: 100vw;
-    }
-    
     header{
         margin-right: 1500px;
         display: flex;
@@ -157,7 +169,17 @@
     }
 
     .uptade{
-        width: 10vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .uptade__text{
+        font-size: 20px;
+    }
+
+    .contact{
+        height: 70vh;
     }
     
 }
