@@ -7,6 +7,16 @@
         margin-left: 30px;
     }
 
+    .featured__products{
+        width: 100vw;
+    }
+
+    .slide-container{
+        width: 300px;
+        display: flex;
+        align-items: flex-start;
+    }
+
     .update{
         width: 100vw;
         display: flex;
