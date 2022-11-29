@@ -33,14 +33,27 @@
         display: flex;
         text-align: center;
     }
+
+    .company__social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .company__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 10px;
+        width: 300px;
+    }
     
 }
 
 @media (max-width: 450px){
-    body{
-        overflow-x: hidden;
-    }
-
     header{
         margin-right: 1500px;
         display: flex;
@@ -123,7 +136,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 90vh;
+        height: 50vh;
     }
 
     .image__company{
@@ -178,7 +191,7 @@
         display: grid;
         justify-content: center;
         width: 100vw;
-        height: 130vh;
+        height: 100vh;
         align-items: center;
     }
 
@@ -188,6 +201,7 @@
         justify-content: center;
         align-items: center;
         width: 100vw;
+        gap: 32px;
     }
     .about__us__icons span{
         justify-content: center;
@@ -210,7 +224,7 @@
 
     .contact{
         width: 100vw;
-        height: 110vh;
+        height: 100vh;
     }
 
     .contact__container{
