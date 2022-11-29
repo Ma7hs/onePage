@@ -17,13 +17,22 @@ var swiper = new Swiper(".slide-content", {
 
   breakpoints:{
       0: {
-          slidesPerView: 1,
+          slidesPerView:  1,
+      },
+      390: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      450:{
+        slidesPerView: 1,
+        spaceBetween: 10,
       },
       520: {
           slidesPerView: 2,
-      },
+          spaceBetween: 20,
+        },
       950: {
           slidesPerView: 3,
-      },
+      },    
   },
 });
