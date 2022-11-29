@@ -3,15 +3,14 @@ html{
 }
 
 body{
-    display:grid ;
-    grid-template-areas: "content";
+    display:flex;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 header{
     height: 80px;
-    grid-area: content;
     background-color: #2F93D0;
     display: flex;
     width: 100%;
