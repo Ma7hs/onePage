@@ -224,12 +224,12 @@
 
     .contact{
         width: 100vw;
-        height: 100vh;
+        height: 110vh;
     }
 
     .contact__container{
         flex-direction: column;
-        gap: 25px;
+        gap: 50px;
     }
 
     .company__social{
@@ -249,13 +249,10 @@
     }
 
     .list__feature{
-
-        color: thistle;
-        display: block;
         flex-direction: column;
-        width: 100px;
-        height: 100px;
-        gap: 32px;
+        width: 200px;
+        height: 200px;
+        gap: 10px;
     }
 
     .faq{

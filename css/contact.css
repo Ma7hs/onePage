@@ -64,7 +64,7 @@
     gap: 12px;
 }
 
-.navegation__bar{
+.navegation__bar__contacts{
     display: flex;
     justify-content: center;
     flex-direction: column;
