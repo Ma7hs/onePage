@@ -1,10 +1,29 @@
-@media (max-width: 390px) {
+@media (max-width: 375px){
+    
     body{
-        width: 100vw;
+        width: 1000vw;
     }
 
-    main{
+    .featured__products{
+        height: 90vh;
+    }
+    .offers{
+        height: 150vh;
+    }
+
+    .about__us{
+        height: 250vh;
+    }
+
+    .contact{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 390px) {
+    body{
         overflow-x: hidden;
+        width: 100vw;
     }
 
     .logo{
@@ -54,11 +73,37 @@
         padding-right: 10px;
         width: 300px;
     }
+
+    .contact{
+        height: 120vh;
+    }
     
+}
+
+@media (max-width: 414px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .update{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .update__text span{
+        font-size: 32px;
+        display: flex;
+        text-align: center;
+    }
+
+
 }
 
 @media (max-width: 450px){
     body{
+        overflow-x: hidden;
         width: 100vw;
     }
 
@@ -144,7 +189,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 50vh;
+        height: 70vh;
     }
 
     .image__company{
