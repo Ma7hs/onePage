@@ -17,6 +17,10 @@
         align-items: flex-start;
     }
 
+    .card-content h2{
+        font-size: 15px;
+    }
+
     .update{
         width: 100vw;
         display: flex;
