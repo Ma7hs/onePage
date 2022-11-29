@@ -1,9 +1,4 @@
 @media (max-width: 375px){
-    
-    body{
-        width: 1000vw;
-    }
-
     .featured__products{
         height: 90vh;
     }
@@ -21,11 +16,6 @@
 }
 
 @media (max-width: 390px) {
-    body{
-        overflow-x: hidden;
-        width: 100vw;
-    }
-
     .logo{
         margin-left: 30px;
     }
@@ -81,10 +71,6 @@
 }
 
 @media (max-width: 414px){
-    body{
-        overflow-x: hidden;
-    }
-
     .update{
         width: 100vw;
         display: flex;
@@ -98,15 +84,9 @@
         text-align: center;
     }
 
-
 }
 
-@media (max-width: 450px){
-    body{
-        overflow-x: hidden;
-        width: 100vw;
-    }
-
+@media (max-width: 450px){    
     header{
         margin-right: 1500px;
         display: flex;
@@ -174,6 +154,7 @@
     }
 
     .featured__products{
+        height: 80vh;
         width: 100vw;
     }
 
@@ -244,7 +225,7 @@
         display: grid;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         align-items: center;
     }
 
@@ -265,7 +246,7 @@
     }
 
     .uptade{
-        height: 100vh;
+        height: 90vh;
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -277,7 +258,7 @@
 
     .contact{
         width: 100vw;
-        height: 125vh;
+        height: 110vh;
     }
 
     .contact__container{
