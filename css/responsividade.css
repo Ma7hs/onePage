@@ -1,17 +1,21 @@
 @media (max-width: 375px){
     .featured__products{
-        height: 90vh;
+        height: 150vh;
     }
     .offers{
         height: 150vh;
     }
 
-    .about__us{
-        height: 250vh;
+    .about__us__cards{
+        height: 150vh;
     }
 
     .contact{
         height: 100vh;
+    }
+
+    .contact__container{
+        height: 300vh;
     }
 }
 
@@ -84,6 +88,14 @@
         text-align: center;
     }
 
+    .featured__products{
+        height: 100vh;
+    }
+
+    .offers{
+        height: 100vh;
+    }
+
 }
 
 @media (max-width: 450px){    
@@ -92,32 +104,8 @@
         display: none;
     }
 
-    .bars__icon{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        visibility: visible;
-        font-size: 2rem;
-        margin-right: 10px;
-        background-image: linear-gradient(to bottom, #2F93D0, #003580);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: black;
-    }
-
-    .logo{
-        visibility: visible;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 135px;
-        font-size: 4rem;
-        background-image: linear-gradient(to bottom, #2F93D0, #003580);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: black;
+    header{
+        display: none;
     }
 
     .home{
@@ -126,7 +114,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 100vh;
+        height: 120vh;
     }
 
     .home__title{
@@ -218,7 +206,7 @@
         display: grid;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
+        height: 120vh;
         align-items: center;
     }
 
@@ -257,12 +245,12 @@
 
     .contact{
         width: 100vw;
-        height: 110vh;
+        height: 160vh;
     }
 
     .contact__container{
         flex-direction: column;
-        gap: 50px;
+        gap: 16px;
     }
 
     .company__social{
