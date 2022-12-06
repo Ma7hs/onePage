@@ -3,7 +3,7 @@
 ## **SOBRE**
 
 - Site tipo do One Page com a finalidade aplicar tecnologias ensinadas dentro de sala de aula.
-- - Esse projeto foi proposto pelo professor Leonid com objetivo de projetarmos um site no FIGMA no estilo One Page.
+- Esse projeto foi proposto pelo professor Leonid com objetivo de projetarmos um site no FIGMA no estilo One Page.
 
 ### **TO DO LIST:**
 
