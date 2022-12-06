@@ -250,7 +250,7 @@
 
     .contact__container{
         flex-direction: column;
-        gap: 16px;
+        gap: 45px;
     }
 
     .company__social{
